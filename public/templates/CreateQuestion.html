@@ -1,0 +1,36 @@
+<h3 class="hmain"><span class="animated fadeInLeftBig">Please ask </span><span class="animated fadeInRightBig">your questions below</span></h3><br><br><br>
+<div class="container ">
+    <div class="row">
+        <h2 class="sign1 animated fadeInUp">All Questions</h2><br>
+        <form role="form" ng-submit="vm.askQuestion()">
+            <div class="col-lg-9 sign2 animated fadeInUp">
+                <!-- <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div> -->
+                <div class="form-group">
+                    <label >Topic</label>
+                    <div class="input-group">
+                        <input type="text" ng-model="vm.question.topic" class="form-control"  id="InputName" placeholder="Topic of question" >
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label >Ask your question?</label>
+                    <div class="input-group">
+                        <textarea type="text" class="form-control" ng-model="vm.question.ask" placeholder="Enter question here" ></textarea>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tag</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="vm.question.tag" placeholder="Enter tag here..." >
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+
+                <input type="submit" id="submit" value="Post your question" class="btn btn-info pull-right">
+            </div>
+        </form>
+
+    </div>
+</div>

@@ -1,0 +1,19 @@
+#menu  {
+    height:100px;
+    background-color: #1d1212;
+    font-size: 24px;
+}
+.hmain{
+    margin-left: 351px;
+}
+.sign1, .log1{
+    margin-left: 150px;
+    margin-top: 135px;
+}
+.sign2,.log2{
+    margin-left: 135px;
+}
+#oflow{
+    font-weight: bold;
+
+}
